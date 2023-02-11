@@ -1,0 +1,165 @@
+/*
+PALLETE
+Foreground
+#BDCFEB blau cel
+#98B5B2 blau grisós
+#729B79 turquesa / teal
+#5D7B6E turquesa gris
+#475B63 blau gris fort
+#F9DF74 groc deixat
+*/
+
+body{
+  font-family: 'IBM Plex Mono', monospace;
+	color: #000000;
+  height: 95vh;
+  background-color: #F9DF74;
+}
+
+#login_title{
+  font-size: 45px;
+}
+
+#main_div{
+  display: flex;
+}
+
+#side{
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  height: 99vh;
+}
+
+.sidebtn{
+  height: 17vh;
+  font-size: 3em;
+  margin: 10px;
+  border-radius: 0 30px 30px 0px;
+}
+
+#main{
+  background-color: #eeeeee;
+  width: 75vw;
+  height: 99vh;
+}
+
+.main_case{
+  width: 68.2vw;
+  height: 97vh;
+  margin: 10px;
+  /* background-color: #555555; */
+  position: absolute;
+}
+
+.inner_main_case{
+  padding: 5%;
+}
+
+#handle{
+  text-align: right;
+}
+
+/*########################################*/
+#main_case_1{
+  visibility: collapse;
+}
+
+/*########################################*/
+#main_case_2{
+  visibility: collapse;
+}
+
+#inventory_grid{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inventory_elem{
+  width: 250px;
+  height: 300px;
+  background-color: #666666;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inv_picture{
+  width: 250px;
+  height: 200px;
+  background-color: #333333;
+}
+
+.inv_text{
+  margin: 0;
+  padding: 10px;
+  height: 100px;
+  background-color: #666666;
+}
+
+.inv_title{
+  margin: 0;
+  font-size: 1.5em;
+}
+
+/*########################################*/
+#main_case_3{
+  visibility: collapse;
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form_elem{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+/*########################################*/
+#main_case_4{
+  /* visibility: collapse; */
+}
+
+#request_list{
+  display: flex;
+  flex-direction: column;
+}
+
+.request{
+  display: flex;
+  flex-direction: row;
+  background-color: #729B79;
+  height: 12vh;
+  margin-bottom: 15px;
+}
+
+.request_image{
+  width: 12vh;
+  background-color: #475B63;
+}
+
+.request_text{
+  width: 70%;
+  padding-left: 10px;
+}
+
+.request_btn1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.request_btn1 > button{
+  height: 5.5vh;
+}
+.request_btn2{
+  height: 100%;
+}
+
+.request_btn2 > button{
+  height: inherit;
+  margin-left: 10px;
+}

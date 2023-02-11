@@ -1,0 +1,83 @@
+/*
+PALLETE
+Foreground
+#BDCFEB blau cel
+#98B5B2 blau grisós
+#729B79 turquesa / teal
+#5D7B6E turquesa gris
+#475B63 blau gris fort
+#F9DF74 groc deixat
+*/
+
+*{
+  margin: 0px;
+}
+body{
+  font-family: 'IBM Plex Mono', monospace;
+	background-color: #F9DF74;
+	color: #000000;
+  height: 95vh;
+}
+
+#search_title{
+  font-size: 45px;
+}
+
+#mapa{
+  position: absolute;
+  margin-top: 10vh;
+  height: 80vh;
+  width: 100vw;
+}
+
+#top_search_div{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 10vh;
+  z-index: 10;
+  padding-left: 20px;
+}
+
+#main_search_div{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  /* margin-top: auto;
+  margin-bottom: auto; */
+}
+
+.msd_elem{
+  display: inline-block;
+}
+
+#inner_search_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40%;
+  height: 10vh;
+}
+
+#search_textarea{
+}
+
+#search_textarea_top{
+  position: absolute;
+  /* visibility: collapse; */
+}
+
+.mapouter{
+  position: absolute;
+}
+
+.gmap_canvas > iframe{
+  margin: 0px;
+  width:100vw;
+  height:89vh;
+}

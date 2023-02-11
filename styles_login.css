@@ -1,0 +1,41 @@
+/*
+PALLETE
+Foreground
+#BDCFEB blau cel
+#98B5B2 blau grisós
+#729B79 turquesa / teal
+#5D7B6E turquesa gris
+#475B63 blau gris fort
+#F9DF74 groc deixat
+*/
+
+body{
+  font-family: 'IBM Plex Mono', monospace;
+	background-color: #F9DF74;
+	color: #000000;
+  height: 95vh;
+}
+
+#login_title{
+  font-size: 45px;
+}
+
+#main_login_div{
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#radio_div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button{
+  margin-top:2em;
+}
