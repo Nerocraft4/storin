@@ -1,0 +1,80 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  margin-top: 125px;
+}
+
+#header{
+  width: 100%;
+  background-color: #F9DF74;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 10px;a
+}
+
+#header > h1{
+  font-size: 4em;
+  text-align: center;
+}
+
+#reservations{
+  display: flex;
+  flex-direction: column;
+}
+
+.res_elem{
+  display: flex;
+  flex-direction: row;
+  background-color: #F9DF74;
+  height: 12vh;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.res_elem_pic{
+  width: 12vh;
+  background-color: #F9DF74;
+  position: relative;
+}
+
+.res_elem_pic > img{
+  position: fixed;
+  width: 12vh;
+  height: 12vh;
+}
+
+.res_elem_price{
+  position: fixed;
+  margin-top: 7vh;
+  left: 25px;
+  width: 10vh;
+  height: 4.5vh;
+  z-index: 10;
+  font-size: 2em;
+  text-align: center;
+  background-color: #F9DF74;
+  font-weight: bold;
+}
+
+.res_elem_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60%;
+  font-size: 2em;
+  padding-left: 20px;
+}
+
+.res_elem_button{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.res_elem_button > button{
+  height: 5.5vh;
+  width: 10vh;
+  font-size: 2.25em;
+}
