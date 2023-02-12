@@ -6,7 +6,7 @@ Contains ideas for Storin, a Startup Marketplace focused on digitalizing small l
 Frontend: Includes a prototype for the web-page style.\
 Backend: Includes database structure and the main functions to make it work. Furthermore, some examples for the DataBase are included.
 
-Missing the front-to-back and back-to-front communication.
+Missing the front-to-back and back-to-front communication, as well as hosting.
 
 ## Members:
 	- Enric Chust Gimeno (enricchustg@gmail.com)
